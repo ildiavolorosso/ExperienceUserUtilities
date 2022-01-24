@@ -31,20 +31,20 @@ Install the package from the AppExchange. The installer will provide a link to t
 
 <h2>Assign Permission Set to Users</h2>
 Locate the *Manage External Users from Lightning Experience* permission set. Click the *Manage Assignments* button, and add the users you intend to have permission to run these tools. Note that at this time, only users with internal licenses are supported.
-!(https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/1.ss.permsets.png)
+![](https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/1.ss.permsets.png)
 
 <h2>Clone or Review Utility Flows</h2>
 This package ships with four flows. These flows are templates, so you have the ability to quickly and easily clone them and save your own versions in your org. You can run the installed flow versions unaltered, or you can open them, alter them, and save your own versions.
-!(https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/2.ss.flowlist.png?raw=true)
+![](https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/2.ss.flowlist.png)
 
 We recommend saving new versions of these flows if you have a need to customize the way they operate. But if you create your own versions, you will need to edit the Contact object actions that came with the package to point to the flows you created from the templates.
 
 <h2>Add (or Clone & Add) Actions to Contact Page Layouts</h2>
 The package installs 3 custom actions on the Contact object.
-!(https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/3.ss.contactactions.png?raw=true)
+![](https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/3.ss.contactactions.png?raw=true)
 
 These actions invoke the utility flows in the package. You will need to edit the Contact object page layouts used to include these actions in the *Mobile & Lightning Actions* section.
-!(https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/4.ss.contactlayout.png?raw=true)
+![](https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/4.ss.contactlayout.png)
 
 <h2>Add User Details Flow to Lightning Experience Contact Page</h2>
 The *External User Details* flow installed by the package was designed to be embedded on a Contact page using Lightning App Builder. Use Lightning App Builder to open the Contact record page(s) you would like to use the component on. Note that your org may have more than one, and that these lightning pages may be assigned to different audiences, different apps, etc.
@@ -52,7 +52,7 @@ The *External User Details* flow installed by the package was designed to be emb
 Add a *Flow* component to the page, in an area that makes sense for your intended users. Set the component to use either the *External User Details* flow, or a custom flow that you saved from External User Details.
 
 <b>IMPORTANT:</b> Be sure to include the _recordId_ in the component configuration. And be sure to save and activate the page.
-!(https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/5.ss.contactpageedit.png?raw=true)
+![ ](https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/5.ss.contactpageedit.png)
 <b>NOTE:</b> This flow will NOT currently work on Person Account pages. The flow expects a contact ID, but person account pages provide an account ID to on-page components.
 
 <h1>Customizing Your Utilities</h1>
