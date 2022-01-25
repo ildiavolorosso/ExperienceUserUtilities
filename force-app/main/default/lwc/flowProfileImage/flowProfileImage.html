@@ -1,0 +1,25 @@
+<template>
+    <div style="width: auto; align:center;">
+        <template if:false={photoURL}>
+            <i class="slds-text-color_error">No profile image!</i>
+        </template>
+        <template if:true={photoURL}>
+            <div class="slds-box slds-theme_default">
+                <lightning-card title="">
+                <div class="slds-avatar slds-avatar_circle slds-avatar_large slds-align_absolute-center slds-border_top"><img src={photoURL} width="150"></div>
+                <div class="slds-text-heading_small slds-align_absolute-center">
+                    <lightning-formatted-name
+                    first-name={firstName}
+                    last-name={lastName}
+                    format="short"
+                    >
+                    </lightning-formatted-name>
+                </div>
+                <div class="slds-text-heading_small slds-align_absolute-center">
+                    <lightning-formatted-email value={email} ></lightning-formatted-email>
+                </div>
+            </lightning-card>
+            </div>
+        </template>
+    </div>
+</template>

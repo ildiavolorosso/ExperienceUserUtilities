@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>52.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Profile Image (URL)</masterLabel>
+    <description>Displays an arbitrary image from a URL in the style of a Chatter profile.</description>
+    <targets>
+        <target>lightning__FlowScreen</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__FlowScreen">
+            <property name="photoURL" label="Photo URL" type="String" description="URL of the photo to be displayed and cropped." />
+            <property name="firstName" label="First Name" type="String" description="First Name to be displayed." />
+            <property name="lastName" label="Last Name" type="String" description="Last Name to be displayed." />
+            <property name="email" label="User Email" type="String" description="Will be displayed just below First and Last name." />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
