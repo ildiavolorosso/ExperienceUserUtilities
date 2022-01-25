@@ -18,7 +18,53 @@
 [Watch the Demo Video](https://www.youtube.com/watch?v=vJC4yxXtQ-w)
 
 <h1>What’s In the Package</h1>
-The package installs several items:
+The package installs several items:</p>
+
+<h3>Usable Screen Flows:</h3>
+
+| Item           | Type          | Details              |
+| :------------- |:--------------| :--------------------|
+| External_User_Details | Flow   | Displays the details of an associated Experience Cloud user on the Contact detail page in Lightning Experience. |
+| Deactivate_External_User | Flow | Templated flow that permanently disables, deactivates, or reactivates an Experience Cloud user. |
+| Freeze_Unfreeze_User  | Flow   | Templated flow that temporarily freezes an Experience Cloud user, preventing that user from logging into any Experience Cloud site. |
+| Reset_External_user_Password | Flow  | Templated flow that triggers a password reset for a particular user. |
+
+<h3>Utility Flows/Subflows:</h3>
+
+| Item           | Type          | Details              |
+| :------------- |:--------------| :--------------------|
+| Deactivate_User | Flow | Utility subflow that temporarily deactivates the designated user. |
+| Disable_User | Flow | Utility subflow that permanently disables the designated user. |
+| Get_External_User | Flow | Utility subflow that retrieves User, UserLogin, and other details of the associated Experience Cloud user. |
+| Reactivate_User | Flow | Utility subflow that reactivates a user who was temporarily deactivated. |
+
+<h3>Apex Classes:</h3>
+
+| Item           | Type          | Details              |
+| :------------- |:--------------| :--------------------|
+| UtilsFetchUserLastLoginData | Apex Class | Flow action Apex utility that retrieves more sensitive user data, such as last password reset. |
+| UtilsGetObjectName | Apex Class | Flow action Apex utility that returns an SObject name from a record Id. Will be used in future iterations to support person accounts. |
+| UtilsResetUserPassword | Apex Class | Flow action Apex utility that resets a user's password with the standard email template. |
+| UtilsTests | Apex Class | Unit tests for the package. |
+
+<h3>Lightning Components:</h3>
+
+| Item           | Type          | Details              |
+| :------------- |:--------------| :--------------------|
+| flowProfileImage | Lightning Web Component | Component for flow screens. Displays the first name, last name, and profile photo of an Experience Cloud user. |
+
+<h3>Other Items:</h3>
+
+| Item           | Type          | Details              |
+| :------------- |:--------------| :--------------------|
+| Manage_External_Users_from_Lightning_Experience | Permission Set | Permission set that enables password reset, user management, and access to the utility Apex class for resetting a password. |
+| Freeze_Unfreeze_Action_Contact | Action (Contact) | Contact object action that invokes the Freeze/Unfreeze User flow template directly. You may want to clone the flow template and clone this action. |
+| Deactivate_External_User_Action_Contact | Action (Contact) | Contact object action that invokes the Disable/Deactivate/Reactivate User flow. |
+| Reset_Password_Action_Contact | Action (Contact) | Contact object action that invokes the Reset_External_user_Password flow. |
+| UserContactEmailMatch | Custom Field (User) | Used by one flow to flag whether the User's email matches the email on a contact record. |
+| Overview_Setup | Button/Link | Used to link to this document after package install. |
+| ExternalUserUtilsInfoPage | Visualforce Page | Used only on package installation to display a link to this documentation. |
+
 
 <h1>Installation & Setup</h1>
 You will need System Administrator privileges to install this package in your Salesforce org.
