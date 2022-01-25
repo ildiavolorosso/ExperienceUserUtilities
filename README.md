@@ -6,14 +6,14 @@
 <p>These user utilities live on the Contact record in Lightning Experience, and allow quick user administration from the Contact page, keeping your support agents more productive.</p>
 
 <h1>Why We Built It!</h1>
-<p>Experience Cloud user administration usually starts on a Contact record. Salesforce provides standard buttons on Contact layouts to view and disable external users. But these buttons navigate the user away from the Contact record, which can inhibit productivity.</p>
+<p>Experience Cloud user administration usually starts on a Contact record. Salesforce provides standard buttons on Contact layouts to view and disable external users. But these buttons navigate the user away from the Contact record, which can inhibit productivity for Agents and Administrators alike.</p>
 
-<p>These utilities were designed as a flexible starting point to display Experience Cloud user information right on the contact record, and to provide quick Flow-based utilities that can be invoked from buttons on that Contact record! And since our Flows are packaged as templates, you can create your own customized versions of them!</p>
+<p>These utilities were designed as a flexible starting point to display Experience Cloud user information right on the contact record, and to provide quick Flow-based user administration utilities that can be invoked from buttons on that Contact record. And since our Flows are packaged as templates, you can create your own customized versions of them, without worrying about future updates!</p>
 
 <h1>A Quick Overview</h1>
 <p>This package includes Flows that display user data on a Contact record, allow disabling/deactivation/reactivation of a user, freezing of a user, and resetting a user’s password.</p>
 
-<p>Placing these flows and actions on a Contact Lightning Page or layout will provide your Service Agents or others with appropriate permissions the ability to quickly perform common user administration tasks.</p>
+<p>Placing these flows and actions on a Contact Lightning Page or layout will provide your Service Agents or others with appropriate permissions the ability to quickly perform these common user administration tasks without navigating away from the Contact record.</p>
 
 [Watch the Demo Video](https://www.youtube.com/watch?v=vJC4yxXtQ-w)
 
@@ -73,12 +73,12 @@ You will need System Administrator privileges to install this package in your Sa
 Install the package from the AppExchange. The installer will provide a link to this page when finished.
 
 <h2>Assign Permission Set to Users</h2>
-<p>Locate the **Manage External Users from Lightning Experience** permission set. Click the **Manage Assignments** button, and add the users you intend to have permission to run these tools. Note that at this time, only users with internal licenses are supported.</p> 
+<p>Locate the **Manage External Users from Lightning Experience** permission set. Click the __Manage Assignments__ button, and add the users you intend to have permission to run these tools. Note that at this time, only users with internal licenses are supported.</p> 
 
 ![Permission Set](https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/1.ss.permsets.png)
 
-<h2>Clone or Review Utility Flows</h2>
-<p>This package ships with eight flows. Four are traditional screen flows, designed to be run by object-level actions or live on a record page in Lightning Experience, and ther remainder are utility flows that are called by these flows. All flows are provided as templates, so you have the ability to quickly and easily clone them and save your own versions in your org. You can run the installed flow versions unaltered, or you can open them, alter them, and save your own versions.</p>
+<h2>Clone or Review Flows</h2>
+<p>This package ships with eight flows. Four are traditional screen flows, designed to be invoked by object-level actions or to live on a record page in Lightning Experience, and the remainder are utility flows that are called by these flows. All flows are provided as templates, so you have the ability to quickly and easily clone them and save your own versions in your org. You can run the installed flow versions unaltered, or you can open them, alter them, and save your own versions with custom business logic.</p>
 
 ![Flows Installed by the Package](https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/2.ss.flowlist.png)
 
@@ -110,10 +110,18 @@ We recommend saving new versions of these flows if you have a need to customize 
 <p>The flows included in the package are marked as templates. That means you can either use them as-is, or save copies of them and customize those copies to suit your administrative needs.</p>
 
 <h1>Limitations & Known Issues</h1>
-<p><b>IMPORTANT NOTE:</b> This package is released under the Salesforce Labs (https://appexchange.salesforce.com/category/salesforce-labs-apps) program. As such, these solutions are not officially supported by Salesforce. But you can get help with Flow, Apex, and other topics in the Trailblazer Community.</p>
+<p><b>IMPORTANT NOTE:</b> This package is released under the [Salesforce Labs](https://appexchange.salesforce.com/category/salesforce-labs-apps) program. As such, these solutions are not officially supported by Salesforce. But you can get help with Flow, Apex, and other topics in the Trailblazer Community.</p>
 
 <p>Please see the Issues tab for tracking all bugs and feature requests.</p>
 
+<h1>Resources</h1>
+<p>Salesforce Flow is a fully supported platform capability. There are many resources to help you diagnose issues with or customize these flows:</p>
+
+[Unofficial SF](https://unofficialsf.com/) - Custom flow extensions, UI components, blogs, and more.
+
+[Help &amp; Training: Flow](https://help.salesforce.com/apex/HTViewHelpDoc?id=sf.flow.htm&language=en_us#:~:text=Salesforce%20Flow%20provides%20two%20types,people%2C%20use%20a%20screen%20flow.&text=For%20example%2C%20add%20automation%20to,a%20user%20clicks%20a%20button.) - Official documentation on Flow.
+
+[Trailhead: Flow AutomatioN Module](https://trailhead.salesforce.com/content/learn/modules/business_process_automation) - Get started with Flow using Trailhead, Salesforce's free learning tool.
 
 
 
