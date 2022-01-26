@@ -129,5 +129,9 @@ We recommend saving new versions of these flows if you have a need to customize 
 
 <p>But there *is* a way forward for using these tools on person accounts! Person account records combine a traditional Contact record with a traditional Account record, but they use the Id of the Account record. That means it won't be possible to use the flows as they are on person account records. For person accounts, you will need to create "wrapper Flows" that extract the Contact Id associated with the person account, then call the regular flows as subflows, passing in the Contact Id.</p>
 
+![Wrapper Flow Sample for Person Accounts](https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/6.ss.personwrapperflow.png)
+
+<p>Implementing this flow is beyond the scope of this package, but we hope to release a second manage package with wrapper flow samples in the future.</p>
+
 
 
