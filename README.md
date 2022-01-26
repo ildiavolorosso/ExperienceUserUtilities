@@ -121,7 +121,13 @@ We recommend saving new versions of these flows if you have a need to customize 
 
 [Help &amp; Training: Flow](https://help.salesforce.com/apex/HTViewHelpDoc?id=sf.flow.htm&language=en_us#:~:text=Salesforce%20Flow%20provides%20two%20types,people%2C%20use%20a%20screen%20flow.&text=For%20example%2C%20add%20automation%20to,a%20user%20clicks%20a%20button.) - Official documentation on Flow.
 
-[Trailhead: Flow AutomatioN Module](https://trailhead.salesforce.com/content/learn/modules/business_process_automation) - Get started with Flow using Trailhead, Salesforce's free learning tool.
+[Trailhead: Flow Automation Module](https://trailhead.salesforce.com/content/learn/modules/business_process_automation) - Get started with Flow using Trailhead, Salesforce's free learning tool.
+
+<h1>Extending the Flows to Support Person Accounts</h1>
+
+<p>This package explicitly does not include support for [Person Accounts](https://help.salesforce.com/s/articleView?language=en_US&type=5&id=account_person.htm). We made this decision because including person account related flows create a packaging dependency that would require orgs installing the package to have those person accounts enabled.</p>
+
+<p>But there *is* a way forward for using these tools on person accounts! Person account records combine a traditional Contact record with a traditional Account record, but they use the Id of the Account record. That means it won't be possible to use the flows as they are on person account records. For person accounts, you will need to create "wrapper Flows" that extract the Contact Id associated with the person account, then call the regular flows as subflows, passing in the Contact Id.</p>
 
 
 
