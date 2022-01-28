@@ -15,7 +15,7 @@ This package includes Flows that display user data on a Contact record, allow di
 
 Placing these flows and actions on a Contact Lightning Page or layout will provide your Service Agents or others with appropriate permissions the ability to quickly perform these common user administration tasks without navigating away from the Contact record.
 
-[Watch the Demo Video](https://www.youtube.com/watch?v=vJC4yxXtQ-w)
+[Watch the Demo Video](https://youtu.be/fjL8zmLkz9I)
 
 # What’s In the Package
 The package installs several items:
