@@ -114,7 +114,13 @@ Add a *Flow* component to the page, in an area that makes sense for your intende
 # Customizing Your Utilities
 Salesforce Flow is a powerful, flexible point-and-click tool that allows you to quickly implement custom screens, business logic, and more.
 
-The flows included in the package are marked as templates. That means you can either use them as-is, or save copies of them and customize those copies to suit your administrative needs.
+The flows included in the package are marked as templates. That means you can either use them as-is, or save copies of them and customize those copies to suit your administrative needs. There are many resources and accelerators available to add functionality to your flows:
+| Item           | Details              |
+| :------------- | :--------------------|
+| [Unofficial SF](https://unofficialsf.com/) | A site dedicated to Flow extensibility. Contains dozens of free custom components and other extensions, as well as blog posts on how to use Flow & NBA. |
+| [Trailblazer Community: Flow](https://trailhead.salesforce.com/en/trailblazer-community/topics/flow?sort=LAST_MODIFIED_DATE_DESC) | Flow Topic	Official Salesforce community topic for Flow questions & discussions. |
+| [Help & Training: Flow Documentation](https://help.salesforce.com/s/articleView?id=sf.flow_builder.htm&type=5) | Flow	Official documentation on how to use Flow. |
+| [learnexperiencecloud.com](https://www.learnexperiencecloud.com/s/) | Experience Cloud practices & learning site. Includes blog posts, customer events, and more. |
 
 # Limitations & Known Issues
 **IMPORTANT NOTE:** This package is released under the [Salesforce Labs](https://appexchange.salesforce.com/category/salesforce-labs-apps) program. As such, these solutions are not officially supported by Salesforce. But you can get help with Flow, Apex, and other topics in the Trailblazer Community.
