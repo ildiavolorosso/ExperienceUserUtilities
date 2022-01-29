@@ -17,6 +17,14 @@ Placing these flows and actions on a Contact Lightning Page or layout will provi
 
 [Watch the Demo Video](https://youtu.be/fjL8zmLkz9I)
 
+# Installation 
+
+You will need System Administrator privileges to install this package in your Salesforce org.
+
+Install this package from the AppExchange:
+[Install Now](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3u00000PuquwEAB)
+
+
 # What’s In the Package
 The package installs several items:
 
@@ -66,8 +74,7 @@ The package installs several items:
 | ExternalUserUtilsInfoPage | Visualforce Page | Used only on package installation to display a link to this documentation. |
 
 
-# Installation & Setup
-You will need System Administrator privileges to install this package in your Salesforce org.
+# Setup
 
 ## Install the Package
 Install the package from the AppExchange. The installer will provide a link to this page when finished.
