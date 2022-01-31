@@ -17,6 +17,8 @@ Placing these flows and actions on a Contact Lightning Page or layout will provi
 
 [Watch the Demo Video](https://youtu.be/fjL8zmLkz9I)
 
+![Experience User Details](https://github.com/ildiavolorosso/ExperienceUserUtilities/blob/main/images/screenshots/6.ss.user-details.png?raw=true)
+
 # Installation 
 
 You will need System Administrator privileges to install this package in your Salesforce org.
