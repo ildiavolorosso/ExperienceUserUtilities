@@ -138,15 +138,13 @@ Salesforce Flow is a fully supported platform capability. There are many resourc
 
 [Trailhead: Flow Automation Module](https://trailhead.salesforce.com/content/learn/modules/business_process_automation) - Get started with Flow using Trailhead, Salesforce's free learning tool.
 
-# Extending the Flows to Support Person Accounts
+# Add Person Account Support!
 
-This package explicitly does not include support for [Person Accounts](https://help.salesforce.com/s/articleView?language=en_US&type=5&id=account_person.htm). We made this decision because including person account related flows create a packaging dependency that would require orgs installing the package to have those person accounts enabled.
+[Person Accounts](https://help.salesforce.com/s/articleView?language=en_US&type=5&id=account_person.htm) are used within Salesforce to represent consumers and, at times, households. And they are often linked to users who hold Experience Cloud licenses. The standard Experience User Utilities package does not include support for person accounts because that would create a dependency on having person accounts active in customer orgs. So we've created a separate AppExchange package called [Experience User Utility Extensions](https://github.com/ildiavolorosso/ExperienceUserUtilitiesExtensions/blob/main/README.md) that offers wrapper Flows to support these utilities on Person Account records.
+![person Account Support](https://github.com/ildiavolorosso/ExperienceUserUtilities/blob/main/images/screenshots/6.ss.user-details.png?raw=true)
 
-But there *is* a way forward for using these tools on person accounts! Person account records combine a traditional Contact record with a traditional Account record, but they use the Id of the Account record. That means it won't be possible to use the flows as they are on person account records. For person accounts, you will need to create "wrapper Flows" that extract the Contact Id associated with the person account, then call the regular flows as subflows, passing in the Contact Id.
 
-![Wrapper Flow Sample for Person Accounts](https://raw.githubusercontent.com/ildiavolorosso/ExperienceUserUtilities/main/images/screenshots/6.ss.personwrapperflow.png)
 
-Implementing this flow is beyond the scope of this package, but we hope to release a second manage package with wrapper flow samples in the future.
 
 
 
