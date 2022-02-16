@@ -141,7 +141,6 @@ Salesforce Flow is a fully supported platform capability. There are many resourc
 # Add Person Account Support!
 
 [Person Accounts](https://help.salesforce.com/s/articleView?language=en_US&type=5&id=account_person.htm) are used within Salesforce to represent consumers and, at times, households. And they are often linked to users who hold Experience Cloud licenses. The standard Experience User Utilities package does not include support for person accounts because that would create a dependency on having person accounts active in customer orgs. So we've created a separate AppExchange package called [Experience User Utility Extensions](https://github.com/ildiavolorosso/ExperienceUserUtilitiesExtensions/blob/main/README.md) that offers wrapper Flows to support these utilities on Person Account records.
-![person Account Support](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000GuGt3UAF)
 
 
 
