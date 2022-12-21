@@ -1,30 +1,12 @@
 # Experience User Utilities
 
-# Introduction
-Experience Cloud powers compelling portals, sites, forums, mobile apps, and commerce storefronts for Salesforce customers. And every user of these digital properties is represented by data in your CRM.
-
-These user utilities live on the Contact record in Lightning Experience, and allow quick user administration from the Contact page, keeping your support agents more productive.
-
-# Why We Built It!
-Experience Cloud user administration usually starts on a Contact record. Salesforce provides standard buttons on Contact layouts to view and disable external users. But these buttons navigate the user away from the Contact record, which can inhibit productivity for Agents and Administrators alike.
-
-These utilities were designed as a flexible starting point to display Experience Cloud user information right on the contact record, and to provide quick Flow-based user administration utilities that can be invoked from buttons on that Contact record. And since our Flows are packaged as templates, you can create your own customized versions of them, without worrying about future updates!
-
-# A Quick Overview
-This package includes Flows that display user data on a Contact record, allow disabling/deactivation/reactivation of a user, freezing of a user, and resetting a user’s password.
-
-Placing these flows and actions on a Contact Lightning Page or layout will provide your Service Agents or others with appropriate permissions the ability to quickly perform these common user administration tasks without navigating away from the Contact record.
+## Read the Docs!
+Our [new Wiki](https://github.com/ildiavolorosso/ExperienceUserUtilities/wiki/Experience-User-Utilities) provides a comprehensive overview and instructions for getting the package working.
 
 [Watch the Demo Video](https://youtu.be/fjL8zmLkz9I)
 
-![Experience User Details](https://github.com/ildiavolorosso/ExperienceUserUtilities/blob/main/images/screenshots/6.ss.user-details.png?raw=true)
+## Get Started
 
-# Installation 
-
-You will need System Administrator privileges to install this package in your Salesforce org.
-
-Install this package from the AppExchange:
-[Install Now](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3u00000PuquwEAB)
 
 
 # What’s In the Package
@@ -128,15 +110,6 @@ The flows included in the package are marked as templates. That means you can ei
 **IMPORTANT NOTE:** This package is released under the [Salesforce Labs](https://appexchange.salesforce.com/category/salesforce-labs-apps) program. As such, these solutions are not officially supported by Salesforce. But you can get help with Flow, Apex, and other topics in the Trailblazer Community.
 
 Please see the Issues tab for tracking all bugs and feature requests.
-
-# Resources
-Salesforce Flow is a fully supported platform capability. There are many resources to help you diagnose issues with or customize these flows:
-
-[Unofficial SF](https://unofficialsf.com/) - Custom flow extensions, UI components, blogs, and more.
-
-[Help &amp; Training: Flow](https://help.salesforce.com/apex/HTViewHelpDoc?id=sf.flow.htm&language=en_us#:~:text=Salesforce%20Flow%20provides%20two%20types,people%2C%20use%20a%20screen%20flow.&text=For%20example%2C%20add%20automation%20to,a%20user%20clicks%20a%20button.) - Official documentation on Flow.
-
-[Trailhead: Flow Automation Module](https://trailhead.salesforce.com/content/learn/modules/business_process_automation) - Get started with Flow using Trailhead, Salesforce's free learning tool.
 
 # Add Person Account Support!
 
